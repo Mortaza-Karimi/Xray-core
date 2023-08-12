@@ -10,7 +10,7 @@ import (
 	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/tls"
 	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/utp"
 	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wechat"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wireguard"
+	// "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wireguard"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -44,11 +44,11 @@ func (WechatVideoAuthenticator) Build() (proto.Message, error) {
 	return new(wechat.VideoConfig), nil
 }
 
-type WireguardAuthenticator struct{}
+// type WireguardAuthenticator struct{}
 
-func (WireguardAuthenticator) Build() (proto.Message, error) {
-	return new(wireguard.WireguardConfig), nil
-}
+// func (WireguardAuthenticator) Build() (proto.Message, error) {
+// 	return new(wireguard.WireguardConfig), nil
+// }
 
 type DNSAuthenticator struct {
 	Domain string `json:"domain"`

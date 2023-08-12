@@ -47,7 +47,7 @@ import (
 	_ "github.com/Mortaza-Karimi/xray-core/proxy/vless/outbound"
 	_ "github.com/Mortaza-Karimi/xray-core/proxy/vmess/inbound"
 	_ "github.com/Mortaza-Karimi/xray-core/proxy/vmess/outbound"
-	_ "github.com/Mortaza-Karimi/xray-core/proxy/wireguard"
+	// _ "github.com/Mortaza-Karimi/xray-core/proxy/wireguard"
 
 	// Transports
 	_ "github.com/Mortaza-Karimi/xray-core/transport/internet/domainsocket"
@@ -68,7 +68,7 @@ import (
 	_ "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/tls"
 	_ "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/utp"
 	_ "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wechat"
-	_ "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wireguard"
+	// _ "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wireguard"
 
 	// JSON & TOML & YAML
 	_ "github.com/Mortaza-Karimi/xray-core/main/json"
