@@ -8,7 +8,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/Mortaza-Karimi/xray-core/common/uuid"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/uuid"
 )
 
 func BuildXray() error {
@@ -17,7 +17,7 @@ func BuildXray() error {
 		return nil
 	}
 
-	cmd := exec.Command("go", "test", "-tags", "coverage coveragemain", "-coverpkg", "github.com/Mortaza-Karimi/xray-core/...", "-c", "-o", testBinaryPath, GetSourcePath())
+	cmd := exec.Command("go", "test", "-tags", "coverage coveragemain", "-coverpkg", "github.com/Mortaza-Karimi/Xray-core/blob/main/...", "-c", "-o", testBinaryPath, GetSourcePath())
 	return cmd.Run()
 }
 

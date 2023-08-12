@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Mortaza-Karimi/xray-core/app/stats"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/features/stats"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/app/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/stats"
 )
 
 func TestStatsChannel(t *testing.T) {

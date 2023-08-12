@@ -7,8 +7,8 @@
 package core
 
 import (
-	serial "github.com/Mortaza-Karimi/xray-core/common/serial"
-	global "github.com/Mortaza-Karimi/xray-core/transport/global"
+	serial "github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	global "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/global"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

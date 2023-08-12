@@ -1,17 +1,17 @@
 package inbound
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"context"
 	"sync"
 
-	"github.com/Mortaza-Karimi/xray-core/app/proxyman"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/inbound"
 )
 
 // Manager is to manage all inbound handlers.

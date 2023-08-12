@@ -1,9 +1,9 @@
 package domainsocket
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
 )
 
 const (

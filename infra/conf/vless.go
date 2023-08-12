@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/common/uuid"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vless"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vless/inbound"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vless/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/uuid"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless/outbound"
 	"google.golang.org/protobuf/proto"
 )
 

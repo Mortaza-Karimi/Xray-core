@@ -7,7 +7,7 @@
 package log
 
 import (
-	log "github.com/Mortaza-Karimi/xray-core/common/log"
+	log "github.com/Mortaza-Karimi/Xray-core/blob/main/common/log"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -3,10 +3,10 @@ package pipe
 import (
 	"context"
 
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
-	"github.com/Mortaza-Karimi/xray-core/common/signal/done"
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal/done"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
 )
 
 // Option for creating new Pipes.

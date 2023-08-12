@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	. "github.com/Mortaza-Karimi/xray-core/common/dice"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/common/dice"
 )
 
 func BenchmarkRoll1(b *testing.B) {

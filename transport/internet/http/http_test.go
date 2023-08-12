@@ -7,15 +7,15 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol/tls/cert"
-	"github.com/Mortaza-Karimi/xray-core/testing/servers/tcp"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
-	. "github.com/Mortaza-Karimi/xray-core/transport/internet/http"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/tls"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol/tls/cert"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/testing/servers/tcp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/http"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/tls"
 )
 
 func TestHTTPConnection(t *testing.T) {

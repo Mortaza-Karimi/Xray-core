@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Mortaza-Karimi/xray-core/app/dns"
-	"github.com/Mortaza-Karimi/xray-core/app/router"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/platform"
-	"github.com/Mortaza-Karimi/xray-core/common/platform/filesystem"
-	. "github.com/Mortaza-Karimi/xray-core/infra/conf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/dns"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/router"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform/filesystem"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/infra/conf"
 	"google.golang.org/protobuf/proto"
 )
 

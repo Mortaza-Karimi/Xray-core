@@ -7,15 +7,15 @@ import (
 	_ "net/http/pprof"
 	"strings"
 
-	"github.com/Mortaza-Karimi/xray-core/app/observatory"
-	"github.com/Mortaza-Karimi/xray-core/app/stats"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/signal/done"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/extension"
-	"github.com/Mortaza-Karimi/xray-core/features/outbound"
-	feature_stats "github.com/Mortaza-Karimi/xray-core/features/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/observatory"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal/done"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/extension"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/outbound"
+	feature_stats "github.com/Mortaza-Karimi/Xray-core/blob/main/features/stats"
 )
 
 type MetricsHandler struct {

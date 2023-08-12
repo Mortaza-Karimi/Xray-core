@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
 )
 
 func (a *Account) Equals(another protocol.Account) bool {

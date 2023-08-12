@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/infra/conf"
-	"github.com/Mortaza-Karimi/xray-core/infra/conf/serial"
-	"github.com/Mortaza-Karimi/xray-core/main/commands/base"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/infra/conf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/infra/conf/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/main/commands/base"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -1,6 +1,6 @@
 package outbound
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"context"
@@ -9,23 +9,23 @@ import (
 	"hash/crc64"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/platform"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/retry"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
-	"github.com/Mortaza-Karimi/xray-core/common/task"
-	"github.com/Mortaza-Karimi/xray-core/common/xudp"
-	core "github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess/encoding"
-	"github.com/Mortaza-Karimi/xray-core/transport"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/retry"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/task"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/xudp"
+	core "github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess/encoding"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
 )
 
 // Handler is an outbound connection handler for VMess protocol.

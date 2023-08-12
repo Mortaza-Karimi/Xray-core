@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"context"
@@ -9,23 +9,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/errors"
-	"github.com/Mortaza-Karimi/xray-core/common/log"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
-	"github.com/Mortaza-Karimi/xray-core/common/task"
-	"github.com/Mortaza-Karimi/xray-core/common/uuid"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	feature_inbound "github.com/Mortaza-Karimi/xray-core/features/inbound"
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
-	"github.com/Mortaza-Karimi/xray-core/features/routing"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess/encoding"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/log"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/task"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/uuid"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	feature_inbound "github.com/Mortaza-Karimi/Xray-core/blob/main/features/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/routing"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess/encoding"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
 )
 
 type userByEmail struct {

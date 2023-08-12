@@ -4,8 +4,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common/errors"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
 )
 
 type dataHandler func(MultiBuffer)

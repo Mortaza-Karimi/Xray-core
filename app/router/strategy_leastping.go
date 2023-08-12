@@ -3,10 +3,10 @@ package router
 import (
 	"context"
 
-	"github.com/Mortaza-Karimi/xray-core/app/observatory"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/extension"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/observatory"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/extension"
 )
 
 type LeastPingStrategy struct {

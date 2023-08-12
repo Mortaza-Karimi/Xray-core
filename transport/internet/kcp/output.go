@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/retry"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/retry"
 )
 
 type SegmentWriter interface {

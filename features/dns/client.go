@@ -1,10 +1,10 @@
 package dns
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/common/errors"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/features"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features"
 )
 
 // IPOption is an object for IP query options.

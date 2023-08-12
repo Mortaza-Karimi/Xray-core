@@ -7,7 +7,7 @@
 package commander
 
 import (
-	serial "github.com/Mortaza-Karimi/xray-core/common/serial"
+	serial "github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -1,4 +1,4 @@
-package platform // import "github.com/Mortaza-Karimi/xray-core/common/platform"
+package platform // import "github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform"
 
 import (
 	"os"

@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Mortaza-Karimi/xray-core/app/router"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/platform/filesystem"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/router"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform/filesystem"
 	"google.golang.org/protobuf/proto"
 )
 

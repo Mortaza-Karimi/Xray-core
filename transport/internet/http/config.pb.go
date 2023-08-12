@@ -7,7 +7,7 @@
 package http
 
 import (
-	http "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/http"
+	http "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/http"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

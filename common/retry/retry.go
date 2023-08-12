@@ -1,6 +1,6 @@
-package retry // import "github.com/Mortaza-Karimi/xray-core/common/retry"
+package retry // import "github.com/Mortaza-Karimi/Xray-core/blob/main/common/retry"
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"time"

@@ -3,9 +3,9 @@ package routing
 import (
 	"context"
 
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/features"
-	"github.com/Mortaza-Karimi/xray-core/transport"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport"
 )
 
 // Dispatcher is a feature that dispatches inbound requests to outbound handlers based on rules.

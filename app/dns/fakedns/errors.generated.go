@@ -1,6 +1,6 @@
 package fakedns
 
-import "github.com/Mortaza-Karimi/xray-core/common/errors"
+import "github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
 
 type errPathObjHolder struct{}
 

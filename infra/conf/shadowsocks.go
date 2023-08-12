@@ -5,10 +5,10 @@ import (
 
 	"github.com/sagernet/sing-shadowsocks/shadowaead_2022"
 	C "github.com/sagernet/sing/common"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/proxy/shadowsocks"
-	"github.com/Mortaza-Karimi/xray-core/proxy/shadowsocks_2022"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/shadowsocks"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/shadowsocks_2022"
 	"google.golang.org/protobuf/proto"
 )
 

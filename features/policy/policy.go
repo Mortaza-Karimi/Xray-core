@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common/platform"
-	"github.com/Mortaza-Karimi/xray-core/features"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features"
 )
 
 // Timeout contains limits for connection timeout.

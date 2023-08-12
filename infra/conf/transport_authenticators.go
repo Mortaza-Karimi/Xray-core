@@ -3,14 +3,14 @@ package conf
 import (
 	"sort"
 
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/dns"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/http"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/noop"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/srtp"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/tls"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/utp"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wechat"
-	// "github.com/Mortaza-Karimi/xray-core/transport/internet/headers/wireguard"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/dns"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/http"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/noop"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/srtp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/tls"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/utp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/wechat"
+	// "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/headers/wireguard"
 	"google.golang.org/protobuf/proto"
 )
 

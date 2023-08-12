@@ -1,7 +1,7 @@
 package routing
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
 )
 
 // Context is a feature to store connection information for routing.

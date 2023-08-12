@@ -1,7 +1,7 @@
 package dokodemo
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
 )
 
 // GetPredefinedAddress returns the defined address from proto config. Null if address is not valid.

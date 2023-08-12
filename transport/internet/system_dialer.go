@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/sagernet/sing/common/control"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/features/dns"
-	"github.com/Mortaza-Karimi/xray-core/features/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/dns"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/outbound"
 )
 
 var effectiveSystemDialer SystemDialer = &DefaultSystemDialer{}

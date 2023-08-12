@@ -3,9 +3,9 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/Mortaza-Karimi/xray-core/common/bitmask"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/uuid"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/bitmask"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/uuid"
 	"golang.org/x/sys/cpu"
 )
 

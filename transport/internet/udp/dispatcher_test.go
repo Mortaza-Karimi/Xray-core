@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol/udp"
-	"github.com/Mortaza-Karimi/xray-core/features/routing"
-	"github.com/Mortaza-Karimi/xray-core/transport"
-	. "github.com/Mortaza-Karimi/xray-core/transport/internet/udp"
-	"github.com/Mortaza-Karimi/xray-core/transport/pipe"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol/udp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/routing"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/udp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/pipe"
 )
 
 type TestDispatcher struct {

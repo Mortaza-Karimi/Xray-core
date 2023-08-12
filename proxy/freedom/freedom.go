@@ -1,6 +1,6 @@
 package freedom
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"context"
@@ -9,21 +9,21 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/dice"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/retry"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
-	"github.com/Mortaza-Karimi/xray-core/common/task"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/dns"
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
-	"github.com/Mortaza-Karimi/xray-core/features/stats"
-	"github.com/Mortaza-Karimi/xray-core/transport"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/dice"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/retry"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/task"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/dns"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
 )
 
 func init() {
@@ -401,7 +401,7 @@ func (f *FragmentWriter) Write(b []byte) (int, error) {
 	}
 }
 
-// stolen from github.com/Mortaza-Karimi/xray-core/transport/internet/reality
+// stolen from github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/reality
 func randBetween(left int64, right int64) int64 {
 	if left == right {
 		return left

@@ -1,6 +1,6 @@
 // Package dice contains common functions to generate random number.
 // It also initialize math/rand with the time in seconds at launch time.
-package dice // import "github.com/Mortaza-Karimi/xray-core/common/dice"
+package dice // import "github.com/Mortaza-Karimi/Xray-core/blob/main/common/dice"
 
 import (
 	"math/rand"

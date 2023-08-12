@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/main/commands/base"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/main/commands/base"
 )
 
 var cmdVersion = &base.Command{

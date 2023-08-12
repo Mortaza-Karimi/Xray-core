@@ -3,10 +3,10 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	. "github.com/Mortaza-Karimi/xray-core/infra/conf"
-	"github.com/Mortaza-Karimi/xray-core/proxy/freedom"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/infra/conf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/freedom"
 )
 
 func TestFreedomConfig(t *testing.T) {

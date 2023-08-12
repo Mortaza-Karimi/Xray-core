@@ -1,8 +1,8 @@
 package features
 
-import "github.com/Mortaza-Karimi/xray-core/common"
+import "github.com/Mortaza-Karimi/Xray-core/blob/main/common"
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 // Feature is the interface for Xray features. All features must implement this interface.
 // All existing features have an implementation in app directory. These features can be replaced by third-party ones.

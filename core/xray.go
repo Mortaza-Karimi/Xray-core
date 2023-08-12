@@ -6,17 +6,17 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/features"
-	"github.com/Mortaza-Karimi/xray-core/features/dns"
-	"github.com/Mortaza-Karimi/xray-core/features/dns/localdns"
-	"github.com/Mortaza-Karimi/xray-core/features/inbound"
-	"github.com/Mortaza-Karimi/xray-core/features/outbound"
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
-	"github.com/Mortaza-Karimi/xray-core/features/routing"
-	"github.com/Mortaza-Karimi/xray-core/features/stats"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/dns"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/dns/localdns"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/routing"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
 )
 
 // Server is an instance of Xray. At any time, there must be at most one Server instance running.

@@ -11,16 +11,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/Mortaza-Karimi/xray-core/app/proxyman"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/proxy/freedom"
-	v2http "github.com/Mortaza-Karimi/xray-core/proxy/http"
-	v2httptest "github.com/Mortaza-Karimi/xray-core/testing/servers/http"
-	"github.com/Mortaza-Karimi/xray-core/testing/servers/tcp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/freedom"
+	v2http "github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/http"
+	v2httptest "github.com/Mortaza-Karimi/Xray-core/blob/main/testing/servers/http"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/testing/servers/tcp"
 )
 
 func TestHttpConformance(t *testing.T) {

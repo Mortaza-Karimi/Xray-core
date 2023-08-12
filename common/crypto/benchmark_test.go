@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	. "github.com/Mortaza-Karimi/xray-core/common/crypto"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/common/crypto"
 )
 
 const benchSize = 1024 * 1024

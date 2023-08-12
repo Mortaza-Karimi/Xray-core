@@ -3,7 +3,7 @@ package policy
 import (
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
 )
 
 // Duration converts Second to time.Duration.

@@ -3,10 +3,10 @@ package udp
 import (
 	"context"
 
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol/udp"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol/udp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
 )
 
 type HubOption func(h *Hub)

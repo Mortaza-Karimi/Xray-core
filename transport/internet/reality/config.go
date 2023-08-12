@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/xtls/reality"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
 )
 
 func (c *Config) GetREALITYConfig() *reality.Config {

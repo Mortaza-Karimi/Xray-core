@@ -13,10 +13,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/Mortaza-Karimi/xray-core/common/cmdarg"
-	"github.com/Mortaza-Karimi/xray-core/common/platform"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/main/commands/base"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/cmdarg"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/main/commands/base"
 )
 
 var cmdRun = &base.Command{

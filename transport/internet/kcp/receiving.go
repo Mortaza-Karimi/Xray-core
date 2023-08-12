@@ -3,7 +3,7 @@ package kcp
 import (
 	"sync"
 
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
 )
 
 type ReceivingWindow struct {

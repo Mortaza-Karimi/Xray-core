@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/app/metrics"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/metrics"
 )
 
 type MetricsConfig struct {

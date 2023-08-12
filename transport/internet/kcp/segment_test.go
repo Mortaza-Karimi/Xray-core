@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	. "github.com/Mortaza-Karimi/xray-core/transport/internet/kcp"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/kcp"
 )
 
 func TestBadSegment(t *testing.T) {

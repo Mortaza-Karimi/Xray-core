@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"bytes"
@@ -15,27 +15,27 @@ import (
 	"unsafe"
 
 	"github.com/pires/go-proxyproto"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/errors"
-	"github.com/Mortaza-Karimi/xray-core/common/log"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/retry"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
-	"github.com/Mortaza-Karimi/xray-core/common/task"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/dns"
-	feature_inbound "github.com/Mortaza-Karimi/xray-core/features/inbound"
-	"github.com/Mortaza-Karimi/xray-core/features/policy"
-	"github.com/Mortaza-Karimi/xray-core/features/routing"
-	"github.com/Mortaza-Karimi/xray-core/features/stats"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vless"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vless/encoding"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/reality"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/tls"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/log"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/retry"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/task"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/dns"
+	feature_inbound "github.com/Mortaza-Karimi/Xray-core/blob/main/features/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/policy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/routing"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless/encoding"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/reality"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/tls"
 )
 
 func init() {

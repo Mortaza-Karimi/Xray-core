@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/common/uuid"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess/inbound"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/uuid"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess/outbound"
 	"google.golang.org/protobuf/proto"
 )
 

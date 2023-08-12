@@ -3,12 +3,12 @@ package toml
 import (
 	"io"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/cmdarg"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/infra/conf"
-	"github.com/Mortaza-Karimi/xray-core/infra/conf/serial"
-	"github.com/Mortaza-Karimi/xray-core/main/confloader"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/cmdarg"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/infra/conf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/infra/conf/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/main/confloader"
 )
 
 func init() {

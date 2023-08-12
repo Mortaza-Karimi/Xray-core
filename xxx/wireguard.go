@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 
-	"github.com/Mortaza-Karimi/xray-core/proxy/wireguard"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/wireguard"
 	"google.golang.org/protobuf/proto"
 )
 

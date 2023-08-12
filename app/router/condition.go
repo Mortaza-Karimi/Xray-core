@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/strmatcher"
-	"github.com/Mortaza-Karimi/xray-core/features/routing"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/strmatcher"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/routing"
 )
 
 type Condition interface {

@@ -3,9 +3,9 @@ package dispatcher_test
 import (
 	"testing"
 
-	. "github.com/Mortaza-Karimi/xray-core/app/dispatcher"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/app/dispatcher"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
 )
 
 type TestCounter int64

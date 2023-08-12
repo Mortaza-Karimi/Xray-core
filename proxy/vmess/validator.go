@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Mortaza-Karimi/xray-core/common/dice"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vmess/aead"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/dice"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vmess/aead"
 )
 
 // TimedUserValidator is a user Validator based on time.

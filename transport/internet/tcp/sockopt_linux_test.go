@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/testing/servers/tcp"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
-	. "github.com/Mortaza-Karimi/xray-core/transport/internet/tcp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/testing/servers/tcp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/tcp"
 )
 
 func TestGetOriginalDestination(t *testing.T) {

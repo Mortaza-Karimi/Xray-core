@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package xray.proxy.vless;
 option csharp_namespace = "Xray.Proxy.Vless";
-option go_package = "github.com/Mortaza-Karimi/xray-core/proxy/vless";
+option go_package = "github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless";
 option java_package = "com.xray.proxy.vless";
 option java_multiple_files = true;
 

@@ -1,7 +1,7 @@
 package conf
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/app/reverse"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/reverse"
 	"google.golang.org/protobuf/proto"
 )
 

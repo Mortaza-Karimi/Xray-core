@@ -3,8 +3,8 @@ package buf
 import (
 	"io"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/errors"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
 )
 
 func readOneUDP(r io.Reader) (*Buffer, error) {

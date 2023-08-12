@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/ocsp"
-	"github.com/Mortaza-Karimi/xray-core/common/platform/filesystem"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol/tls/cert"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/ocsp"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/platform/filesystem"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol/tls/cert"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
 )
 
 var globalSessionCache = tls.NewLRUClientSessionCache(128)

@@ -1,8 +1,8 @@
 package routing
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/features"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

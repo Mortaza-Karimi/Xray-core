@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/Mortaza-Karimi/xray-core/main/commands/base"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/main/commands/base"
 )
 
 // CmdAPI calls an API in an Xray process

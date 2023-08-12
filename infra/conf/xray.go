@@ -7,12 +7,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Mortaza-Karimi/xray-core/app/dispatcher"
-	"github.com/Mortaza-Karimi/xray-core/app/proxyman"
-	"github.com/Mortaza-Karimi/xray-core/app/stats"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	core "github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/dispatcher"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	core "github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet"
 )
 
 var (

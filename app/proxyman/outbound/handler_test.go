@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Mortaza-Karimi/xray-core/app/policy"
-	. "github.com/Mortaza-Karimi/xray-core/app/proxyman/outbound"
-	"github.com/Mortaza-Karimi/xray-core/app/stats"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	core "github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/outbound"
-	"github.com/Mortaza-Karimi/xray-core/proxy/freedom"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/policy"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	core "github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/freedom"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

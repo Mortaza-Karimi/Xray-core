@@ -3,11 +3,11 @@ package command
 import (
 	"context"
 
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/core"
-	"github.com/Mortaza-Karimi/xray-core/features/inbound"
-	"github.com/Mortaza-Karimi/xray-core/features/outbound"
-	"github.com/Mortaza-Karimi/xray-core/proxy"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/inbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy"
 	grpc "google.golang.org/grpc"
 )
 

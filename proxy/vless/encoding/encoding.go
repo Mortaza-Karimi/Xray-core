@@ -1,6 +1,6 @@
 package encoding
 
-//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors/errorgen
 
 import (
 	"bytes"
@@ -13,17 +13,17 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Mortaza-Karimi/xray-core/common/buf"
-	"github.com/Mortaza-Karimi/xray-core/common/errors"
-	"github.com/Mortaza-Karimi/xray-core/common/net"
-	"github.com/Mortaza-Karimi/xray-core/common/protocol"
-	"github.com/Mortaza-Karimi/xray-core/common/session"
-	"github.com/Mortaza-Karimi/xray-core/common/signal"
-	"github.com/Mortaza-Karimi/xray-core/features/stats"
-	"github.com/Mortaza-Karimi/xray-core/proxy/vless"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/reality"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
-	"github.com/Mortaza-Karimi/xray-core/transport/internet/tls"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/buf"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/errors"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/net"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/protocol"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/session"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/signal"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/features/stats"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/proxy/vless"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/reality"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/stat"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/transport/internet/tls"
 )
 
 const (

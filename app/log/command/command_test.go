@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Mortaza-Karimi/xray-core/app/dispatcher"
-	"github.com/Mortaza-Karimi/xray-core/app/log"
-	. "github.com/Mortaza-Karimi/xray-core/app/log/command"
-	"github.com/Mortaza-Karimi/xray-core/app/proxyman"
-	_ "github.com/Mortaza-Karimi/xray-core/app/proxyman/inbound"
-	_ "github.com/Mortaza-Karimi/xray-core/app/proxyman/outbound"
-	"github.com/Mortaza-Karimi/xray-core/common"
-	"github.com/Mortaza-Karimi/xray-core/common/serial"
-	"github.com/Mortaza-Karimi/xray-core/core"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/dispatcher"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/log"
+	. "github.com/Mortaza-Karimi/Xray-core/blob/main/app/log/command"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman"
+	_ "github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman/inbound"
+	_ "github.com/Mortaza-Karimi/Xray-core/blob/main/app/proxyman/outbound"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/common/serial"
+	"github.com/Mortaza-Karimi/Xray-core/blob/main/core"
 )
 
 func TestLoggerRestart(t *testing.T) {
