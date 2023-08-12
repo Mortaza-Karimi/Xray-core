@@ -12,10 +12,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
 
 type Certificate struct {
 	// Cerificate in ASN.1 DER format

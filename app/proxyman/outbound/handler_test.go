@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/xtls/xray-core/app/policy"
-	. "github.com/xtls/xray-core/app/proxyman/outbound"
-	"github.com/xtls/xray-core/app/stats"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/serial"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy/freedom"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/xray-core/app/policy"
+	. "github.com/Mortaza-Karimi/xray-core/app/proxyman/outbound"
+	"github.com/Mortaza-Karimi/xray-core/app/stats"
+	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/xray-core/common/serial"
+	core "github.com/Mortaza-Karimi/xray-core/core"
+	"github.com/Mortaza-Karimi/xray-core/features/outbound"
+	"github.com/Mortaza-Karimi/xray-core/proxy/freedom"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
 )
 
 func TestInterfaces(t *testing.T) {

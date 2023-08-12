@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,23 +9,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/core"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/buf"
+	"github.com/Mortaza-Karimi/xray-core/common/errors"
+	"github.com/Mortaza-Karimi/xray-core/common/log"
+	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/xray-core/common/protocol"
+	"github.com/Mortaza-Karimi/xray-core/common/session"
+	"github.com/Mortaza-Karimi/xray-core/common/signal"
+	"github.com/Mortaza-Karimi/xray-core/common/task"
+	"github.com/Mortaza-Karimi/xray-core/common/uuid"
+	"github.com/Mortaza-Karimi/xray-core/core"
+	feature_inbound "github.com/Mortaza-Karimi/xray-core/features/inbound"
+	"github.com/Mortaza-Karimi/xray-core/features/policy"
+	"github.com/Mortaza-Karimi/xray-core/features/routing"
+	"github.com/Mortaza-Karimi/xray-core/proxy/vmess"
+	"github.com/Mortaza-Karimi/xray-core/proxy/vmess/encoding"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
 )
 
 type userByEmail struct {

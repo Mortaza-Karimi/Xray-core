@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/kcp"
-	"github.com/xtls/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/errors"
+	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	. "github.com/Mortaza-Karimi/xray-core/transport/internet/kcp"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -1,6 +1,6 @@
 package dispatcher
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/Mortaza-Karimi/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,21 +9,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	routing_session "github.com/xtls/xray-core/features/routing/session"
-	"github.com/xtls/xray-core/features/stats"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/buf"
+	"github.com/Mortaza-Karimi/xray-core/common/log"
+	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/xray-core/common/protocol"
+	"github.com/Mortaza-Karimi/xray-core/common/session"
+	"github.com/Mortaza-Karimi/xray-core/core"
+	"github.com/Mortaza-Karimi/xray-core/features/dns"
+	"github.com/Mortaza-Karimi/xray-core/features/outbound"
+	"github.com/Mortaza-Karimi/xray-core/features/policy"
+	"github.com/Mortaza-Karimi/xray-core/features/routing"
+	routing_session "github.com/Mortaza-Karimi/xray-core/features/routing/session"
+	"github.com/Mortaza-Karimi/xray-core/features/stats"
+	"github.com/Mortaza-Karimi/xray-core/transport"
+	"github.com/Mortaza-Karimi/xray-core/transport/pipe"
 )
 
 var errSniffingTimeout = newError("timeout on sniffing")

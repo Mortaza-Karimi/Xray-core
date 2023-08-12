@@ -8,12 +8,12 @@ import (
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/logging"
 	"github.com/quic-go/quic-go/qlog"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/xray-core/common/task"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet/stat"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet/tls"
 )
 
 type connectionContext struct {

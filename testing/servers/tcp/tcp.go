@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/Mortaza-Karimi/xray-core/common/buf"
+	"github.com/Mortaza-Karimi/xray-core/common/net"
+	"github.com/Mortaza-Karimi/xray-core/common/task"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/xray-core/transport/pipe"
 )
 
 type Server struct {

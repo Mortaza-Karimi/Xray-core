@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/transport/internet"
 )
 
 func init() {

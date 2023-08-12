@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/antireplay"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/antireplay"
 )
 
 var (

@@ -3,8 +3,8 @@ package log
 import (
 	"sync"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/log"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/log"
 )
 
 type HandlerCreatorOptions struct {

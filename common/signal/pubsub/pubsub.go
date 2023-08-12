@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/common/task"
+	"github.com/Mortaza-Karimi/xray-core/common"
+	"github.com/Mortaza-Karimi/xray-core/common/signal/done"
+	"github.com/Mortaza-Karimi/xray-core/common/task"
 )
 
 type Subscriber struct {
